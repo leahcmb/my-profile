@@ -1,0 +1,36 @@
+/*Colors and fonts*/
+
+body {
+	background-color: rgb(230, 230, 230);
+	color: navy;
+	font-family : Arial, serif; 
+
+}
+
+h1 {
+	color: black
+	font-weight:bold;
+	letter-spacing: 10px; 
+	font-size: 200;
+}
+
+a{
+	text-decoration: none;
+}
+a:hover {
+	color: purple;
+}
+div{background: lavender;                    /* Purple background */
+padding: 30px;                             /* Internal space */
+border-radius: 4px;                        /* Small radius */
+box-shadow: 0 10px 30px rgba(0,0,0,.1);    /* Light shadow */ 
+}
+
+div{width: 300px;     
+margin: 0px auto; }
+
+.perfect-circle {
+  width: 300px;
+	height: 300px;
+	border-radius: 50%;
+}
